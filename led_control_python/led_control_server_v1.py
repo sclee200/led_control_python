@@ -109,6 +109,13 @@ class LedControlServer(Node):
             ser.write(bytes('8','utf-8'))
             # time.sleep(2)
             #코드 끝
+        elif key == 9:
+            self.get_logger().info("key == '9'")
+            #코드 시작
+            # ser.write(0x34) #transmit data serially
+            ser.write(bytes('9','utf-8'))
+            # time.sleep(2)
+            #코드 끝
 
 
         return response

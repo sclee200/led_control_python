@@ -29,8 +29,9 @@ class LedControlClient(Node):
         print('4. led 4번)')
         print('5. led ALL OFF)')
         print('6. led ALL ON)')
-        print('3. led Sequencial 1->4)')
-        print('4. led Sequencial 4->1)')
+        print('7. led Sequencial 1->4)')
+        print('8. led Sequencial 4->1)')
+        print('9. wheel motor rotation)')
         
         # print("-------------------------------------------------")
         # print(" q.  QUIT")
